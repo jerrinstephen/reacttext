@@ -46,3 +46,17 @@ li.Schedule::before{
   border-radius:20px;
   display:inline-block;
 }
+.ullist li{
+  display: block;
+  float:none;
+  padding:10px;
+}
+.ullist li::before{
+  vertical-align:middle;
+}
+.listspan{
+  padding-left:7px;
+}
+.ullist{
+  float:left;
+}

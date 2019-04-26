@@ -9,12 +9,17 @@ class Headertitle extends Component{
                 <p>Data Status</p>
             </span>
             <span className="col-lg-4 col-sm-4 col-md-4"></span>
-            <ul className="col-lg-4 col-sm-4 col-md-4">
-                <li className="Complete">Complete</li>
-                <li className="PartialLoad">Partial Load</li>
-                <li className="QualityAlert">Quality Alert</li>
-                <li className="NoLoad">No Load</li>
+            <div className="col-lg-4 col-sm-4 col-md-4">
+            <ul className="ullist">
+                <li className="Complete"><span className="listspan">Complete</span></li>
+                <li className="PartialLoad"><span className="listspan">Partial Load</span></li>
             </ul>
+            <ul className="ullist">
+                <li className="QualityAlert"><span className="listspan">Quality Alert</span></li>
+                <li className="NoLoad"><span className="listspan">No Load</span></li>
+            </ul>
+            </div>
+           
             </div>
         );
     }
